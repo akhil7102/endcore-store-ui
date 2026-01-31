@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -39,20 +35,27 @@ All colors MUST be HSL.
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Store Theme Colors */
+    --store-bg: 0 0% 4%;
+    --store-bg-secondary: 0 0% 7%;
+    --store-bg-tertiary: 0 0% 10%;
+    --store-card: 0 0% 8%;
+    --store-card-hover: 0 0% 11%;
+    --store-accent: 353 82% 40%;
+    --store-accent-hover: 353 82% 47%;
+    --store-text: 0 0% 100%;
+    --store-text-secondary: 0 0% 70%;
+    --store-text-muted: 0 0% 40%;
+    --store-border: 0 0% 16%;
+    --store-border-light: 0 0% 20%;
   }
 
   .dark {
